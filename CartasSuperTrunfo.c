@@ -6,9 +6,13 @@
 
 int main() {
 
-    char estado1[10], estado2[10];
-    char cod1[3], cod2[3];
-    char cidade1[25], cidade2[25];
+    //Declaração de variável
+    char estado1[10];
+    char estado2[10];
+    char cod1[3];
+    char cod2[3];
+    char cidade1[25];
+    char cidade2[25];
     int populacao1, populacao2, turistico1, turistico2;
     float area_km1, area_km2, pib1, pib2;
 
