@@ -44,12 +44,12 @@ int main() {
     scanf("%d", &turistico2);
 
     //Cáculo Densidade Populacional:
-    densidade1 = (float)populacao1 / area_km1;
-    densidade2 = (float)populacao2 / area_km2;
+    densidade1 = (float) populacao1 / area_km1;
+    densidade2 = (float) populacao2 / area_km2;
 
     //Cáculo PIB per Capita:
-    pibper_1 = pib1 / populacao1;
-    pibper_2 = pib2 / populacao2;
+    pibper_1 = (float) pib1 / populacao1;
+    pibper_2 = (float) pib2 / populacao2;
 
     // Bloco de impressão das informações:
 
