@@ -48,8 +48,8 @@ int main() {
     densidade2 = (float)populacao2 / area_km2;
 
     //Cáculo PIB per Capita:
-    pibper_1 = (float)pib1 / populacao1;
-    pibper_2 = (float)pib2 / populacao2;
+    pibper_1 = pib1 / populacao1;
+    pibper_2 = pib2 / populacao2;
 
     // Bloco de impressão das informações:
 
